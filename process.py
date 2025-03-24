@@ -156,7 +156,7 @@ def process_article(data):
 
             pbar.update(1)
 
-            # Сохраняем каждые 10 статей
+            # Сохраняем каждые 20 статей
             if (idx + 1) % 20 == 0:
                 save_to_excel(results, output_file_name)
                 results = []  
